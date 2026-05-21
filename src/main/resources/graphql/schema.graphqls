@@ -1,0 +1,10 @@
+type Query {
+    widgets: [Widget]
+}
+
+type Widget {
+    id: ID!
+    name: String!
+    price: Float!
+    imageUrl: String!
+}
